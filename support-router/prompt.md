@@ -6,8 +6,8 @@ Classify each TaskNest support ticket into one of three categories, assign the c
 
 ## Runtime and credentials
 
-- Use `gpt-6-luna` through `langchain_openai.ChatOpenAI`, with `temperature=0`.
-- This ultra-low-cost, fast model is suitable for a simple three-way text classification task.
+- Use `gpt-4o-mini` through `langchain_openai.ChatOpenAI`, with `temperature=0`.
+- `gpt-4o-mini` was selected as the low-cost model for a simple three-way text classification task.
 - Install `langgraph`, `langchain-openai`, and `pydantic` in Google Colab.
 - Read `OPENAI_API_KEY` from Google Colab Secrets at notebook startup. Never use `getpass` or hardcode an API key.
 
